@@ -1,3 +1,28 @@
-body{
-    background: #BDBDBD;
+body {
+    background: white;
+}
+
+.bg-image {
+    background-image: url("https://img2.wallspic.com/previews/7/7/2/8/6/168277/168277-la_ciudad_de_nueva_york-manhattan-edificio-ambiente-luz-x750.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.bg-image h1,
+.bg-image h3 {
+    background: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.bg-image h3 {
+    font-size: 5rem;
+}
+
+.bg-image h1 {
+    font-size: 9rem;
+    padding: 20px;
 }
